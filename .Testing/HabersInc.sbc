@@ -7,6 +7,7 @@
 		<SubtypeId>HabersInc</SubtypeId>
 	</Id>
 	<Description>SpaceCraft HAB -aggressive -nuclear -zerg</Description>
+	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
 	<Frequency>1.0</Frequency>
 	<IsPirate>false</IsPirate>
 	<Prefabs>
@@ -38,3 +39,4 @@
 </Faction></Factions>
 
 </Definitions>
+
