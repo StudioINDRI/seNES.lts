@@ -1,0 +1,116 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<SpawnGroups>
+
+<SpawnGroup>
+	<Id>
+		<TypeId>SpawnGroupDefinition</TypeId>
+		<SubtypeId>SpaceCraft</SubtypeId>
+	</Id>
+	<Description>SpaceCraft NES</Description>
+	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
+	<Frequency>1.0</Frequency>
+	<IsPirate>true</IsPirate>
+	<Prefabs>
+		<Prefab SubtypeId="Terran Planet Pod">
+			<Position>
+				<X>0.0</X>
+				<Y>0.0</Y>
+				<Z>0.0</Z>
+			</Position>
+			<BeaconText>Terran Planet Pod</BeaconText>
+			<Speed>0.0</Speed>
+		</Prefab>
+		<Prefab SubtypeId="SC Container">
+			<Position>
+				<X>0.0</X>
+				<Y>0.0</Y>
+				<Z>0.0</Z>
+			</Position>
+			<BeaconText>SC Container</BeaconText>
+			<Speed>20.0</Speed>
+		</Prefab>
+        <Prefab SubtypeId="Nesforcer">
+			<Position>
+				<X>0.0</X>
+				<Y>0.0</Y>
+				<Z>0.0</Z>
+			</Position>
+			<BeaconText>Nesforcer</BeaconText>
+			<Speed>20.0</Speed>
+		</Prefab>
+		<Prefab SubtypeId="Nescout">
+			<Position>
+				<X>0.0</X>
+				<Y>0.0</Y>
+				<Z>0.0</Z>
+			</Position>
+			<BeaconText>Nescout</BeaconText>
+			<Speed>20.0</Speed>
+		</Prefab>
+		<Prefab SubtypeId="Wraith Crane">
+			<Position>
+				<X>0.0</X>
+				<Y>0.0</Y>
+				<Z>0.0</Z>
+			</Position>
+			<BeaconText>Wraith Crane</BeaconText>
+			<Speed>0.0</Speed>
+		</Prefab>
+		<Prefab SubtypeId="DropPackEng">
+			<Position>
+				<X>0.0</X>
+				<Y>0.0</Y>
+				<Z>0.0</Z>
+			</Position>
+			<BeaconText>DropPackEng</BeaconText>
+			<Speed>20.0</Speed>
+		</Prefab>
+		<Prefab SubtypeId="SC Platform">
+			<Position>
+				<X>0.0</X>
+				<Y>0.0</Y>
+				<Z>0.0</Z>
+			</Position>
+			<BeaconText>SC Platform</BeaconText>
+			<Speed>20.0</Speed>
+		</Prefab>
+		<Prefab SubtypeId="SC Crane">
+			<Position>
+				<X>0.0</X>
+				<Y>0.0</Y>
+				<Z>0.0</Z>
+			</Position>
+			<BeaconText>SC Crane</BeaconText>
+			<Speed>20.0</Speed>
+		</Prefab>
+		<Prefab SubtypeId="SC Gantry Large">
+			<Position>
+				<X>0.0</X>
+				<Y>0.0</Y>
+				<Z>0.0</Z>
+			</Position>
+			<BeaconText>SC Gantry Large</BeaconText>
+			<Speed>20.0</Speed>
+		</Prefab>
+		<Prefab SubtypeId="SC Gantry Small">
+			<Position>
+				<X>0.0</X>
+				<Y>0.0</Y>
+				<Z>0.0</Z>
+			</Position>
+			<BeaconText>SC Gantry Small</BeaconText>
+			<Speed>20.0</Speed>
+		</Prefab>
+		<Prefab SubtypeId="Nespawner V03">
+			<Position>
+				<X>0.0</X>
+				<Y>0.0</Y>
+				<Z>0.0</Z>
+			</Position>
+			<BeaconText>Nespawner V03</BeaconText>
+			<Speed>20.0</Speed>
+		</Prefab>
+	</Prefabs>
+</SpawnGroup></SpawnGroups>
+</Definitions>

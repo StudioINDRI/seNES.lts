@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Sounds>
+    <Sound>
+      <Id>
+        <TypeId>AudioDefinition</TypeId>
+        <SubtypeId>PlasmaBeam</SubtypeId>
+      </Id>
+      <Category>WEP_PLAY</Category>
+      <MaxDistance>46.6797371</MaxDistance>
+      <Volume>1.5</Volume>
+      <Loopable>true</Loopable>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\WEP\phaserstart.xwm</Start>
+          <Loop>Audio\WEP\phaserloop.xwm</Loop>
+          <End>Audio\WEP\phaserend.xwm</End>
+        </Wave>
+      </Waves>
+    </Sound>
+  </Sounds>
+</Definitions>

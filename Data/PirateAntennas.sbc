@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <PirateAntennas>
+    
+    <Antenna>
+	<Id>
+	<TypeId>MyObjectBuilder_PirateAntennaDefinition</TypeId>
+	<SubtypeId>EarthPirateSmall</SubtypeId>
+	</Id>
+	<Name>DO NOT OPPOSE EVOLUTION</Name>
+	<SpawnDistance>80</SpawnDistance>
+	<SpawnTimeMs>500</SpawnTimeMs>
+	<FirstSpawnTimeMs>2000</FirstSpawnTimeMs> 
+	<MaxDrones>190</MaxDrones> 
+	<SpawnGroups>
+	<Group>FleetingRival</Group>
+	<Group>StingingAdversary</Group>
+        <Group>SpitefulAggressor</Group>
+        <Group>DriftingPursuant</Group>		
+	</SpawnGroups>
+    </Antenna>
+    
+	<Antenna>
+	<Id>
+	<TypeId>MyObjectBuilder_PirateAntennaDefinition</TypeId>
+	<SubtypeId>EarthPirateSmall2</SubtypeId>
+	</Id>
+	<Name>RECRUITING PILOTS</Name>
+	<SpawnDistance>80</SpawnDistance>
+	<SpawnTimeMs>500</SpawnTimeMs>
+	<FirstSpawnTimeMs>2000</FirstSpawnTimeMs> 
+	<MaxDrones>190</MaxDrones> 
+	<SpawnGroups>
+	<Group>Nesforcer</Group>
+	<Group>Nescout</Group>
+        <!-- <Group>Nesfire</Group> -->
+        <!-- <Group>Nespioneer</Group>	 -->
+	</SpawnGroups>
+    </Antenna>
+	
+  </PirateAntennas>
+</Definitions>

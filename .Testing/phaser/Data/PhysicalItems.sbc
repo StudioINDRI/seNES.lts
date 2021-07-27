@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <PhysicalItems>
+    <PhysicalItem xsi:type="MyObjectBuilder_WeaponItemDefinition">
+      <Id>
+        <TypeId>PhysicalGunObject</TypeId>
+        <SubtypeId>PlasmaRifleItem</SubtypeId>
+      </Id>
+      <DisplayName>Plasma Rifle</DisplayName>
+      <Icon>Textures\GUI\Icons\PlasmaRifle.dds</Icon>
+      <Size>
+        <X>0.8</X>
+        <Y>0.24</Y>
+        <Z>0.08</Z>
+      </Size>
+      <Mass>2</Mass>
+      <Volume>8</Volume>
+      <Model>Models\Weapons\PlasmaRifle.mwm</Model>
+      <WeaponDefinitionId Subtype="PlasmaRifleWeapon" />
+    </PhysicalItem>v
+  </PhysicalItems>
+</Definitions>

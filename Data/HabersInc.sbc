@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+<SpawnGroups><SpawnGroup>
+	<Id>
+		<TypeId>SpawnGroupDefinition</TypeId>
+		<SubtypeId>Habers Inc</SubtypeId>
+	</Id>
+	<Description>SpaceCraft HAB -protoss</Description>
+	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
+	<Frequency>1.0</Frequency>
+	<IsPirate>true</IsPirate>
+	<Prefabs>
+		<Prefab SubtypeId="TOSS EVOLVER">
+			<Position>
+				<X>0.0</X>
+				<Y>0.0</Y>
+				<Z>0.0</Z>
+			</Position>
+			<BeaconText>TOSS EVOLVER</BeaconText>
+			<Speed>20.0</Speed>
+		</Prefab>
+	    
+	</Prefabs>
+</SpawnGroup></SpawnGroups>
+
+<Factions><Faction Tag="HAB" Founder="jr. Bob Habers">
+  <Id>
+    <TypeId>MyObjectBuilder_FactionDefinition</TypeId>
+    <SubtypeId>Habers Inc</SubtypeId>
+  </Id>
+  <DisplayName>Habers Incorporated</DisplayName>
+  <IsDefault>true</IsDefault>
+  <DefaultRelation>Neutral</DefaultRelation>
+  <AcceptHumans>false</AcceptHumans>
+  <AutoAcceptMember>true</AutoAcceptMember>
+</Faction></Factions>
+
+</Definitions>

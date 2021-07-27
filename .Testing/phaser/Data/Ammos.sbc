@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Ammos>
+    <Ammo xsi:type="MyObjectBuilder_ProjectileAmmoDefinition">
+      <Id>
+        <TypeId>AmmoDefinition</TypeId>
+        <SubtypeId>PhaserCell</SubtypeId>
+      </Id>
+      <BasicProperties>
+        <DesiredSpeed>150</DesiredSpeed>
+        <SpeedVariance>0</SpeedVariance>
+        <MaxTrajectory>50</MaxTrajectory>
+        <BackkickForce>0</BackkickForce>
+      </BasicProperties>
+      <ProjectileProperties>
+        <ProjectileHitImpulse>0</ProjectileHitImpulse>
+        <ProjectileMassDamage>2</ProjectileMassDamage>
+        <ProjectileHealthDamage>4</ProjectileHealthDamage>
+	<ProjectileTrailScale>0.5</ProjectileTrailScale>
+	<ProjectileTrailColor x="1" y="0.75" z="0.5" />
+	<ProjectileTrailProbability>1</ProjectileTrailProbability>
+      </ProjectileProperties>
+    </Ammo>
+  </Ammos>
+</Definitions>

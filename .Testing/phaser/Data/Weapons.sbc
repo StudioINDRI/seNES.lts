@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Weapons>
+    <Weapon>
+      <Id>
+        <TypeId>WeaponDefinition</TypeId>
+        <SubtypeId>PlasmaRifleWeapon</SubtypeId>
+      </Id>
+      <ProjectileAmmoData RateOfFire="10000" ShootSoundName="PlasmaBeam" />
+      <NoAmmoSoundName>WepPlayRifleNoAmmo</NoAmmoSoundName>
+      <DeviateShotAngle>0.01</DeviateShotAngle>
+      <ReleaseTimeAfterFire>50</ReleaseTimeAfterFire>
+      <MuzzleFlashLifeSpan>1</MuzzleFlashLifeSpan>
+      <DamageMultiplier>400</DamageMultiplier>
+      <RangeMultiplier>100</RangeMultiplier>
+      <AmmoMagazines>
+        <AmmoMagazine Subtype="PhaserCell" />
+      </AmmoMagazines>
+    </Weapon>
+  </Weapons>
+</Definitions>
