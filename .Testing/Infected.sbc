@@ -4,7 +4,7 @@
 <SpawnGroups><SpawnGroup>
 	<Id>
 		<TypeId>SpawnGroupDefinition</TypeId>
-		<SubtypeId>Infect</SubtypeId>
+		<SubtypeId>Infected</SubtypeId>
 	</Id>
 	<Description>SpaceCraft NFCT -zerg -aggressive</Description>
 	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
