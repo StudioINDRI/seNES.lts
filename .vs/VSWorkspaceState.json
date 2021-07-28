@@ -1,6 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\.Testing",
+    "\\.Testing\\adminBlocks"
   ],
+  "SelectedNode": "\\.Testing",
   "PreviewInSolutionExplorer": true
 }

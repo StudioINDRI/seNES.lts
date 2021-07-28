@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <CubeBlocks>
+        
+        <!-- Region -->
+        <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
+            <Id>
+                <TypeId>Reactor</TypeId>
+                <SubtypeId>Admin SmallBlockNuclearPower</SubtypeId>
+            </Id>
+            <DisplayName>Admin SmallBlock Nuclear Power</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\nuclear_reactor.dds</Icon>
+            <Description>Description_Reactor</Description>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Small\GeneratorSmall.mwm</Model>
+            <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
+ <Components>
+                   <Component Subtype="Adminimda" Count="1" >
+					<DeconstructId>
+                        <TypeId>Ore</TypeId>
+                        <SubtypeId>Scrap</SubtypeId>
+                    </DeconstructId>	
+				   </Component>	
+				   <Component Subtype="Computer" Count = "1"></Component>
+				   <Component Subtype="Adminimda" Count="1" >
+					<DeconstructId>
+                        <TypeId>Ore</TypeId>
+                        <SubtypeId>Scrap</SubtypeId>
+                    </DeconstructId>	
+				   </Component>	
+      </Components>
+            <CriticalComponent Subtype="Adminimda" Index="1" />
+            <MountPoints>
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\GeneratorSmallConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\GeneratorSmallConstruction_2.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>Admin SmallBlock Nuclear Power</BlockPairName>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>20</BuildTimeSeconds>
+
+            <ResourceSourceGroup>Reactors</ResourceSourceGroup>
+            <MaxPowerOutput>5500</MaxPowerOutput>
+
+            <InventorySize>
+                <X>0.5</X>
+                <Y>0.5</Y>
+                <Z>0.5</Z>
+            </InventorySize>
+            
+            
+            <!-- 
+                Values are volume fill ratio, means how much fuel reactor pulls from conveyor system to the inventory.
+                If volume fill ratio is bellow minimum, reactor starts pulling fuel up to maximum value.
+                Warning: Changing these values will affect performance.
+            -->
+            <!--  <InventoryFillFactorMin>0.0002</InventoryFillFactorMin>  -->
+            <!--  <InventoryFillFactorMax>0.0004</InventoryFillFactorMax>  -->
+
+            <!-- 
+                This is how much of fuel is pulled from conveyor system in one tick.
+                It's in minutes, means that it will pull X minutes of fuel in one tick.
+                Warning: Changing this value will affect performance.
+            -->
+            <!-- <FuelPullAmountFromConveyorInMinutes>10.0</FuelPullAmountFromConveyorInMinutes>  -->
+                    
+            <!-- 
+			<FuelInfos>
+                <FuelInfo>
+                    <Id>
+                        <TypeId>Ingot</TypeId>
+                        <SubtypeId>Uranium</SubtypeId>
+                    </Id>
+                </FuelInfo>
+            </FuelInfos> 
+			-->
+
+            <PrimarySound>ShipSmNuclearSm</PrimarySound>
+            <DamageEffectName>Damage_Reactor_Damaged</DamageEffectName>
+            <DamagedSound>ParticleReactor</DamagedSound>
+            <EmissiveColorPreset>Default</EmissiveColorPreset>
+            <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+            <DestroySound>WepSmallWarheadExpl</DestroySound>
+            <PCU>25</PCU>
+            <IsAirTight>false</IsAirTight>
+            <TieredUpdateTimes>
+                <unsignedInt>900</unsignedInt>
+                <unsignedInt>1800</unsignedInt>
+                <unsignedInt>3600</unsignedInt>
+            </TieredUpdateTimes>
+        </Definition>
+		
+		
+		
+		
+		
+        <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
+            <Id>
+                <TypeId>Reactor</TypeId>
+                <SubtypeId>Admin LargeBlockNuclearPower</SubtypeId>
+            </Id>
+            <DisplayName>Admin LargeBlock Nuclear Power</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\nuclear_reactor.dds</Icon>
+            <Description>Description_Reactor</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\GeneratorSmall.mwm</Model>
+            <Components>
+                   <Component Subtype="Adminimda" Count="1" >
+					<DeconstructId>
+                        <TypeId>Ore</TypeId>
+                        <SubtypeId>Scrap</SubtypeId>
+                    </DeconstructId>	
+				   </Component>	
+				   <Component Subtype="Computer" Count = "1"></Component>
+				   <Component Subtype="Adminimda" Count="1" >
+					<DeconstructId>
+                        <TypeId>Ore</TypeId>
+                        <SubtypeId>Scrap</SubtypeId>
+                    </DeconstructId>	
+				   </Component>	
+      </Components>
+            <CriticalComponent Subtype="Adminimda" Index="1" />
+            <MountPoints>
+                <MountPoint Side="Top" StartX="0.15" StartY="0.15" EndX="0.85" EndY="0.85" />
+                <MountPoint Side="Back" StartX="0.15" StartY="0.15" EndX="0.85" EndY="0.85" />
+                <MountPoint Side="Right" StartX="0.3" StartY="0.3" EndX="0.7" EndY="0.7" />
+                <MountPoint Side="Left" StartX="0.3" StartY="0.3" EndX="0.7" EndY="0.7" />
+                <MountPoint Side="Bottom" StartX="0.3" StartY="0.3" EndX="0.7" EndY="0.7" Default="true" />
+                <MountPoint Side="Front" StartX="0.3" StartY="0.3" EndX="0.7" EndY="0.7" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\GeneratorSmallConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\GeneratorSmallConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\GeneratorSmallConstruction_3.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>Admin LargeBlock Nuclear Power</BlockPairName>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>40</BuildTimeSeconds>
+
+            <ResourceSourceGroup>Reactors</ResourceSourceGroup>
+            <MaxPowerOutput>15500</MaxPowerOutput>
+
+            <InventorySize>
+                <X>1</X>
+                <Y>1</Y>
+                <Z>1</Z>
+            </InventorySize>
+
+            <!-- 
+                Values are volume fill ratio, means how much fuel reactor pulls from conveyor system to the inventory.
+                If volume fill ratio is bellow minimum, reactor starts pulling fuel up to maximum value.
+                Warning: Changing these values will affect performance.
+            -->
+            <!--  <InventoryFillFactorMin>0.0002</InventoryFillFactorMin>  -->
+            <!--  <InventoryFillFactorMax>0.0004</InventoryFillFactorMax>  -->
+
+            <!-- 
+                This is how much of fuel is pulled from conveyor system in one tick.
+                It's in minutes, means that it will pull X minutes of fuel in one tick.
+                Warning: Changing this value will affect performance.
+            -->
+            <!-- <FuelPullAmountFromConveyorInMinutes>10.0</FuelPullAmountFromConveyorInMinutes>  -->
+                    
+            <!-- 
+			<FuelInfos>
+                <FuelInfo>
+                    <Id>
+                        <TypeId>Ingot</TypeId>
+                        <SubtypeId>Uranium</SubtypeId>
+                    </Id>
+                </FuelInfo>
+            </FuelInfos> 
+			-->
+
+            <PrimarySound>ShipLrgNuclearSm</PrimarySound>
+            <DamageEffectName>Damage_Reactor_Damaged</DamageEffectName>
+            <DamagedSound>ParticleReactor</DamagedSound>
+            <EmissiveColorPreset>Default</EmissiveColorPreset>
+            <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+            <DestroySound>WepSmallWarheadExpl</DestroySound>
+            <PCU>25</PCU>
+            <IsAirTight>false</IsAirTight>
+            <TieredUpdateTimes>
+                <unsignedInt>900</unsignedInt>
+                <unsignedInt>1800</unsignedInt>
+                <unsignedInt>3600</unsignedInt>
+            </TieredUpdateTimes>
+        </Definition>
+        
+		
+
+  
+  
+    </CubeBlocks>
+</Definitions>

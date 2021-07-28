@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CubeBlocks>
+    <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
+      <Id>
+        <TypeId>CargoContainer</TypeId>
+        <SubtypeId>AdminEasyArmory</SubtypeId>
+      </Id>
+      <DisplayName>Admin Easy Armory</DisplayName>
+	<Icon>Textures\GUI\Icons\Ammo\Ammo_Box.dds</Icon>
+      <Description>Description_EasyArmory</Description>
+      <CubeSize>Large</CubeSize>
+        <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <Model>Models\EasyArmoryPassage.mwm</Model>
+      <ModelOffset x="0" y="0" z="0" />
+ <Components>
+                   <Component Subtype="Adminimda" Count="1" >
+					<DeconstructId>
+                        <TypeId>Ore</TypeId>
+                        <SubtypeId>Scrap</SubtypeId>
+                    </DeconstructId>	
+				   </Component>	
+				   <Component Subtype="Computer" Count = "1"></Component>
+				   <Component Subtype="Adminimda" Count="1" >
+					<DeconstructId>
+                        <TypeId>Ore</TypeId>
+                        <SubtypeId>Scrap</SubtypeId>
+                    </DeconstructId>	
+				   </Component>	
+      </Components>
+      <CriticalComponent Subtype="Adminimda" Index="1" />
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+        <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="0.1" />
+        <MountPoint Side="Back" StartX="0" StartY="0.9" EndX="1" EndY="1" />
+        <MountPoint Side="Back" StartX="0" StartY="0.1" EndX="0.1" EndY="0.9" />
+        <MountPoint Side="Back" StartX="0.8" StartY="0.1" EndX="1" EndY="0.9" />
+        <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\PassageConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\PassageConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\PassageConstruction_3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>AdminEasyArmory</BlockPairName>
+      <MirroringZ>Y</MirroringZ>
+      <MirroringY>Z</MirroringY>
+      <EdgeType>Light</EdgeType>
+      <EmissiveColorPreset>Basic</EmissiveColorPreset>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <BuildTimeSeconds>300</BuildTimeSeconds>
+      <PCU>10</PCU>
+	    <InventorySize>
+        <X>10</X>
+        <Y>1</Y>
+        <Z>1</Z>
+      </InventorySize>
+    </Definition>	 
+  </CubeBlocks>
+</Definitions>
