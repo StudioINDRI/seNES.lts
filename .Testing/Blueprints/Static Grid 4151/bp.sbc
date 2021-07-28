@@ -1,0 +1,660 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ShipBlueprints>
+    <ShipBlueprint xsi:type="MyObjectBuilder_ShipBlueprintDefinition">
+      <Id Type="MyObjectBuilder_ShipBlueprintDefinition" Subtype="Static Grid 4151" />
+      <DisplayName>Shepard</DisplayName>
+      <DLC>ScrapRace</DLC>
+      <CubeGrids>
+        <CubeGrid>
+          <SubtypeName />
+          <EntityId>136403171260354151</EntityId>
+          <PersistentFlags>CastShadows InScene</PersistentFlags>
+          <PositionAndOrientation>
+            <Position x="36233.71979666852" y="1795.9045141555816" z="48873.075985561794" />
+            <Forward x="0.254885972" y="-0.9546901" z="-0.153622583" />
+            <Up x="0.5952315" y="0.0297022313" z="0.803005159" />
+            <Orientation>
+              <X>0.116851427</X>
+              <Y>0.6399488</Y>
+              <Z>0.6866547</Z>
+              <W>-0.3245253</W>
+            </Orientation>
+          </PositionAndOrientation>
+          <LocalPositionAndOrientation xsi:nil="true" />
+          <GridSizeEnum>Large</GridSizeEnum>
+          <CubeBlocks>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_BatteryBlock">
+              <SubtypeName>LargeBlockBatteryBlock</SubtypeName>
+              <EntityId>137133903438941715</EntityId>
+              <IntegrityPercent>0.8593213</IntegrityPercent>
+              <ColorMaskHSV x="0.333333343" y="-0.48" z="-0.25" />
+              <SkinSubtypeId>Mossy_Armor</SkinSubtypeId>
+              <Owner>144115188075855897</Owner>
+              <BuiltBy>144115188075855897</BuiltBy>
+              <CustomName>Battery</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <Enabled>true</Enabled>
+              <CurrentStoredPower>0.899911761</CurrentStoredPower>
+              <ProducerEnabled>true</ProducerEnabled>
+              <MaxStoredPower>0</MaxStoredPower>
+              <SemiautoEnabled>false</SemiautoEnabled>
+              <OnlyDischargeEnabled>false</OnlyDischargeEnabled>
+              <ChargeMode>0</ChargeMode>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Projector">
+              <SubtypeName>LargeProjector</SubtypeName>
+              <EntityId>87928302774269462</EntityId>
+              <Min x="0" y="0" z="1" />
+              <ColorMaskHSV x="0.333333343" y="-0.48" z="-0.25" />
+              <SkinSubtypeId>Mossy_Armor</SkinSubtypeId>
+              <Owner>144115188075855897</Owner>
+              <BuiltBy>144115188075855897</BuiltBy>
+              <ShareMode>Faction</ShareMode>
+              <CustomName>Projector</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <Enabled>true</Enabled>
+              <ProjectedGrids>
+                <MyObjectBuilder_CubeGrid>
+                  <SubtypeName />
+                  <EntityId>93990814999638703</EntityId>
+                  <PersistentFlags>CastShadows InScene</PersistentFlags>
+                  <Name>93990814999638703</Name>
+                  <PositionAndOrientation>
+                    <Position x="0" y="0" z="0" />
+                    <Forward x="0.254885972" y="-0.9546901" z="-0.153622583" />
+                    <Up x="0.5952315" y="0.0297022313" z="0.803005159" />
+                    <Orientation>
+                      <X>0.116851427</X>
+                      <Y>0.6399488</Y>
+                      <Z>0.6866547</Z>
+                      <W>-0.3245253</W>
+                    </Orientation>
+                  </PositionAndOrientation>
+                  <LocalPositionAndOrientation xsi:nil="true" />
+                  <GridSizeEnum>Large</GridSizeEnum>
+                  <CubeBlocks>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_BatteryBlock">
+                      <SubtypeName>LargeBlockBatteryBlock</SubtypeName>
+                      <EntityId>101586878794844921</EntityId>
+                      <ColorMaskHSV x="0.333333343" y="-0.48" z="-0.25" />
+                      <SkinSubtypeId>Mossy_Armor</SkinSubtypeId>
+                      <CustomName>Battery</CustomName>
+                      <ShowOnHUD>false</ShowOnHUD>
+                      <ShowInTerminal>true</ShowInTerminal>
+                      <ShowInToolbarConfig>true</ShowInToolbarConfig>
+                      <ShowInInventory>true</ShowInInventory>
+                      <Enabled>true</Enabled>
+                      <CurrentStoredPower>0</CurrentStoredPower>
+                      <ProducerEnabled>true</ProducerEnabled>
+                      <MaxStoredPower>0</MaxStoredPower>
+                      <SemiautoEnabled>false</SemiautoEnabled>
+                      <OnlyDischargeEnabled>false</OnlyDischargeEnabled>
+                      <ChargeMode>0</ChargeMode>
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+                      <SubtypeName>LargeInteriorPillar</SubtypeName>
+                      <EntityId>137816781173463343</EntityId>
+                      <Min x="0" y="1" z="0" />
+                      <BlockOrientation Forward="Forward" Up="Down" />
+                      <ColorMaskHSV x="0.333333343" y="-0.48" z="-0.25" />
+                      <SkinSubtypeId>Mossy_Armor</SkinSubtypeId>
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+                      <SubtypeName>LargeInteriorPillar</SubtypeName>
+                      <EntityId>105115840827517987</EntityId>
+                      <Min x="0" y="2" z="0" />
+                      <BlockOrientation Forward="Left" Up="Down" />
+                      <ColorMaskHSV x="0.333333343" y="-0.48" z="-0.25" />
+                      <SkinSubtypeId>Mossy_Armor</SkinSubtypeId>
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+                      <SubtypeName>LargeInteriorPillar</SubtypeName>
+                      <EntityId>122288761894788552</EntityId>
+                      <Min x="0" y="3" z="0" />
+                      <BlockOrientation Forward="Left" Up="Down" />
+                      <ColorMaskHSV x="0.333333343" y="-0.48" z="-0.25" />
+                      <SkinSubtypeId>Mossy_Armor</SkinSubtypeId>
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+                      <SubtypeName>LargeInteriorPillar</SubtypeName>
+                      <EntityId>139355592384000973</EntityId>
+                      <Min x="0" y="4" z="0" />
+                      <BlockOrientation Forward="Left" Up="Down" />
+                      <ColorMaskHSV x="0.333333343" y="-0.48" z="-0.25" />
+                      <SkinSubtypeId>Mossy_Armor</SkinSubtypeId>
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+                      <SubtypeName>LargeInteriorPillar</SubtypeName>
+                      <EntityId>142938012798770952</EntityId>
+                      <Min x="0" y="5" z="0" />
+                      <BlockOrientation Forward="Left" Up="Down" />
+                      <ColorMaskHSV x="0.333333343" y="-0.48" z="-0.25" />
+                      <SkinSubtypeId>Mossy_Armor</SkinSubtypeId>
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+                      <SubtypeName>LargeInteriorPillar</SubtypeName>
+                      <EntityId>128472580998894857</EntityId>
+                      <Min x="0" y="6" z="0" />
+                      <BlockOrientation Forward="Left" Up="Down" />
+                      <ColorMaskHSV x="0.333333343" y="-0.48" z="-0.25" />
+                      <SkinSubtypeId>Mossy_Armor</SkinSubtypeId>
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+                      <SubtypeName>LargeInteriorPillar</SubtypeName>
+                      <EntityId>111819395647928021</EntityId>
+                      <Min x="0" y="7" z="0" />
+                      <BlockOrientation Forward="Left" Up="Down" />
+                      <ColorMaskHSV x="0.333333343" y="-0.48" z="-0.25" />
+                      <SkinSubtypeId>Mossy_Armor</SkinSubtypeId>
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+                      <SubtypeName>LargeInteriorPillar</SubtypeName>
+                      <EntityId>140072405926155751</EntityId>
+                      <Min x="0" y="8" z="0" />
+                      <BlockOrientation Forward="Left" Up="Down" />
+                      <ColorMaskHSV x="0.333333343" y="-0.48" z="-0.25" />
+                      <SkinSubtypeId>Mossy_Armor</SkinSubtypeId>
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+                      <SubtypeName>LargeInteriorPillar</SubtypeName>
+                      <EntityId>77950619575918205</EntityId>
+                      <Min x="0" y="9" z="0" />
+                      <BlockOrientation Forward="Left" Up="Down" />
+                      <ColorMaskHSV x="0.333333343" y="-0.48" z="-0.25" />
+                      <SkinSubtypeId>Mossy_Armor</SkinSubtypeId>
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+                      <SubtypeName>LargeInteriorPillar</SubtypeName>
+                      <EntityId>123840893288166370</EntityId>
+                      <Min x="0" y="10" z="0" />
+                      <BlockOrientation Forward="Left" Up="Down" />
+                      <ColorMaskHSV x="0.333333343" y="-0.48" z="-0.25" />
+                      <SkinSubtypeId>Mossy_Armor</SkinSubtypeId>
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+                      <SubtypeName>LargeInteriorPillar</SubtypeName>
+                      <EntityId>109795578483899498</EntityId>
+                      <Min x="0" y="11" z="0" />
+                      <BlockOrientation Forward="Left" Up="Down" />
+                      <ColorMaskHSV x="0.333333343" y="-0.48" z="-0.25" />
+                      <SkinSubtypeId>Mossy_Armor</SkinSubtypeId>
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+                      <SubtypeName>LargeInteriorPillar</SubtypeName>
+                      <EntityId>140611874648361681</EntityId>
+                      <Min x="0" y="12" z="0" />
+                      <BlockOrientation Forward="Left" Up="Down" />
+                      <ColorMaskHSV x="0.333333343" y="-0.48" z="-0.25" />
+                      <SkinSubtypeId>Mossy_Armor</SkinSubtypeId>
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+                      <SubtypeName>LargeInteriorPillar</SubtypeName>
+                      <EntityId>133942046988420387</EntityId>
+                      <Min x="0" y="13" z="0" />
+                      <BlockOrientation Forward="Left" Up="Down" />
+                      <ColorMaskHSV x="0.333333343" y="-0.48" z="-0.25" />
+                      <SkinSubtypeId>Mossy_Armor</SkinSubtypeId>
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+                      <SubtypeName>LargeInteriorPillar</SubtypeName>
+                      <EntityId>78996785648541666</EntityId>
+                      <Min x="0" y="14" z="0" />
+                      <BlockOrientation Forward="Left" Up="Down" />
+                      <ColorMaskHSV x="0.333333343" y="-0.48" z="-0.25" />
+                      <SkinSubtypeId>Mossy_Armor</SkinSubtypeId>
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+                      <SubtypeName>LargeInteriorPillar</SubtypeName>
+                      <EntityId>111671018543951966</EntityId>
+                      <Min x="0" y="15" z="0" />
+                      <BlockOrientation Forward="Left" Up="Down" />
+                      <ColorMaskHSV x="0.333333343" y="-0.48" z="-0.25" />
+                      <SkinSubtypeId>Mossy_Armor</SkinSubtypeId>
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+                      <SubtypeName>LargeInteriorPillar</SubtypeName>
+                      <EntityId>87481889452659608</EntityId>
+                      <Min x="0" y="16" z="0" />
+                      <BlockOrientation Forward="Left" Up="Down" />
+                      <ColorMaskHSV x="0.333333343" y="-0.48" z="-0.25" />
+                      <SkinSubtypeId>Mossy_Armor</SkinSubtypeId>
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+                      <SubtypeName>LargeInteriorPillar</SubtypeName>
+                      <EntityId>129113167384196799</EntityId>
+                      <Min x="0" y="17" z="0" />
+                      <BlockOrientation Forward="Left" Up="Down" />
+                      <ColorMaskHSV x="0.333333343" y="-0.48" z="-0.25" />
+                      <SkinSubtypeId>Mossy_Armor</SkinSubtypeId>
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+                      <SubtypeName>LargeInteriorPillar</SubtypeName>
+                      <EntityId>115988687951727136</EntityId>
+                      <Min x="0" y="18" z="0" />
+                      <BlockOrientation Forward="Left" Up="Down" />
+                      <ColorMaskHSV x="0.333333343" y="-0.48" z="-0.25" />
+                      <SkinSubtypeId>Mossy_Armor</SkinSubtypeId>
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+                      <SubtypeName>LargeInteriorPillar</SubtypeName>
+                      <EntityId>86362829009498354</EntityId>
+                      <Min x="0" y="19" z="0" />
+                      <BlockOrientation Forward="Left" Up="Down" />
+                      <ColorMaskHSV x="0.333333343" y="-0.48" z="-0.25" />
+                      <SkinSubtypeId>Mossy_Armor</SkinSubtypeId>
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+                      <SubtypeName>LargeInteriorPillar</SubtypeName>
+                      <EntityId>114060864535646264</EntityId>
+                      <Min x="0" y="20" z="0" />
+                      <BlockOrientation Forward="Left" Up="Down" />
+                      <ColorMaskHSV x="0.333333343" y="-0.48" z="-0.25" />
+                      <SkinSubtypeId>Mossy_Armor</SkinSubtypeId>
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+                      <SubtypeName>LargeInteriorPillar</SubtypeName>
+                      <EntityId>85633150049494377</EntityId>
+                      <Min x="0" y="21" z="0" />
+                      <BlockOrientation Forward="Left" Up="Down" />
+                      <ColorMaskHSV x="0.333333343" y="-0.48" z="-0.25" />
+                      <SkinSubtypeId>Mossy_Armor</SkinSubtypeId>
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Decoy">
+                      <SubtypeName>LargeDecoy</SubtypeName>
+                      <EntityId>95328107640092133</EntityId>
+                      <Min x="0" y="22" z="0" />
+                      <ColorMaskHSV x="0.333333343" y="-0.48" z="-0.25" />
+                      <SkinSubtypeId>Mossy_Armor</SkinSubtypeId>
+                      <CustomName>Decoy</CustomName>
+                      <ShowOnHUD>false</ShowOnHUD>
+                      <ShowInTerminal>true</ShowInTerminal>
+                      <ShowInToolbarConfig>true</ShowInToolbarConfig>
+                      <ShowInInventory>true</ShowInInventory>
+                      <Enabled>true</Enabled>
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+                      <SubtypeName>LargeInteriorPillar</SubtypeName>
+                      <EntityId>129238673893880183</EntityId>
+                      <Min x="-1" y="22" z="0" />
+                      <BlockOrientation Forward="Down" Up="Right" />
+                      <ColorMaskHSV x="0.333333343" y="-0.48" z="-0.25" />
+                      <SkinSubtypeId>Mossy_Armor</SkinSubtypeId>
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+                      <SubtypeName>LargeInteriorPillar</SubtypeName>
+                      <EntityId>129840541820344963</EntityId>
+                      <Min x="-2" y="22" z="0" />
+                      <BlockOrientation Forward="Down" Up="Right" />
+                      <ColorMaskHSV x="0.333333343" y="-0.48" z="-0.25" />
+                      <SkinSubtypeId>Mossy_Armor</SkinSubtypeId>
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+                      <SubtypeName>LargeInteriorPillar</SubtypeName>
+                      <EntityId>91244486196608501</EntityId>
+                      <Min x="-3" y="22" z="0" />
+                      <BlockOrientation Forward="Down" Up="Right" />
+                      <ColorMaskHSV x="0.333333343" y="-0.48" z="-0.25" />
+                      <SkinSubtypeId>Mossy_Armor</SkinSubtypeId>
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+                      <SubtypeName>LargeInteriorPillar</SubtypeName>
+                      <EntityId>143703777775140223</EntityId>
+                      <Min x="-4" y="22" z="0" />
+                      <BlockOrientation Forward="Down" Up="Right" />
+                      <ColorMaskHSV x="0.333333343" y="-0.48" z="-0.25" />
+                      <SkinSubtypeId>Mossy_Armor</SkinSubtypeId>
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+                      <SubtypeName>LargeInteriorPillar</SubtypeName>
+                      <EntityId>86400219889723006</EntityId>
+                      <Min x="1" y="22" z="0" />
+                      <BlockOrientation Forward="Down" Up="Left" />
+                      <ColorMaskHSV x="0.333333343" y="-0.48" z="-0.25" />
+                      <SkinSubtypeId>Mossy_Armor</SkinSubtypeId>
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+                      <SubtypeName>LargeInteriorPillar</SubtypeName>
+                      <EntityId>99717550844069594</EntityId>
+                      <Min x="2" y="22" z="0" />
+                      <BlockOrientation Forward="Down" Up="Left" />
+                      <ColorMaskHSV x="0.333333343" y="-0.48" z="-0.25" />
+                      <SkinSubtypeId>Mossy_Armor</SkinSubtypeId>
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+                      <SubtypeName>LargeInteriorPillar</SubtypeName>
+                      <EntityId>82154641977186472</EntityId>
+                      <Min x="3" y="22" z="0" />
+                      <BlockOrientation Forward="Down" Up="Left" />
+                      <ColorMaskHSV x="0.333333343" y="-0.48" z="-0.25" />
+                      <SkinSubtypeId>Mossy_Armor</SkinSubtypeId>
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+                      <SubtypeName>LargeInteriorPillar</SubtypeName>
+                      <EntityId>79296751300900781</EntityId>
+                      <Min x="4" y="22" z="0" />
+                      <BlockOrientation Forward="Down" Up="Left" />
+                      <ColorMaskHSV x="0.333333343" y="-0.48" z="-0.25" />
+                      <SkinSubtypeId>Mossy_Armor</SkinSubtypeId>
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+                      <SubtypeName>LargeInteriorPillar</SubtypeName>
+                      <EntityId>98232835771341403</EntityId>
+                      <Min x="0" y="23" z="0" />
+                      <BlockOrientation Forward="Left" Up="Down" />
+                      <ColorMaskHSV x="0.333333343" y="-0.48" z="-0.25" />
+                      <SkinSubtypeId>Mossy_Armor</SkinSubtypeId>
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+                      <SubtypeName>LargeInteriorPillar</SubtypeName>
+                      <EntityId>81830313677304074</EntityId>
+                      <Min x="0" y="24" z="0" />
+                      <BlockOrientation Forward="Left" Up="Down" />
+                      <ColorMaskHSV x="0.333333343" y="-0.48" z="-0.25" />
+                      <SkinSubtypeId>Mossy_Armor</SkinSubtypeId>
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+                      <SubtypeName>LargeInteriorPillar</SubtypeName>
+                      <EntityId>95934407007506395</EntityId>
+                      <Min x="0" y="25" z="0" />
+                      <BlockOrientation Forward="Left" Up="Down" />
+                      <ColorMaskHSV x="0.333333343" y="-0.48" z="-0.25" />
+                      <SkinSubtypeId>Mossy_Armor</SkinSubtypeId>
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+                      <SubtypeName>LargeInteriorPillar</SubtypeName>
+                      <EntityId>93041582649032131</EntityId>
+                      <Min x="0" y="26" z="0" />
+                      <BlockOrientation Forward="Left" Up="Down" />
+                      <ColorMaskHSV x="0.333333343" y="-0.48" z="-0.25" />
+                      <SkinSubtypeId>Mossy_Armor</SkinSubtypeId>
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+                      <SubtypeName>LargeInteriorPillar</SubtypeName>
+                      <EntityId>98235683750015916</EntityId>
+                      <Min x="0" y="22" z="-1" />
+                      <BlockOrientation Forward="Left" Up="Backward" />
+                      <ColorMaskHSV x="0.333333343" y="-0.48" z="-0.25" />
+                      <SkinSubtypeId>Mossy_Armor</SkinSubtypeId>
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+                      <SubtypeName>LargeInteriorPillar</SubtypeName>
+                      <EntityId>76711027980415931</EntityId>
+                      <Min x="0" y="22" z="1" />
+                      <BlockOrientation Forward="Left" Up="Forward" />
+                      <ColorMaskHSV x="0.333333343" y="-0.48" z="-0.25" />
+                      <SkinSubtypeId>Mossy_Armor</SkinSubtypeId>
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Projector">
+                      <SubtypeName>LargeProjector</SubtypeName>
+                      <EntityId>82294371206751956</EntityId>
+                      <Min x="0" y="0" z="1" />
+                      <ColorMaskHSV x="0.333333343" y="-0.48" z="-0.25" />
+                      <SkinSubtypeId>Mossy_Armor</SkinSubtypeId>
+                      <CustomName>Projector</CustomName>
+                      <ShowOnHUD>false</ShowOnHUD>
+                      <ShowInTerminal>true</ShowInTerminal>
+                      <ShowInToolbarConfig>true</ShowInToolbarConfig>
+                      <ShowInInventory>true</ShowInInventory>
+                      <Enabled>true</Enabled>
+                      <ProjectionOffset>
+                        <X>0</X>
+                        <Y>0</Y>
+                        <Z>0</Z>
+                      </ProjectionOffset>
+                      <ProjectionRotation>
+                        <X>0</X>
+                        <Y>0</Y>
+                        <Z>0</Z>
+                      </ProjectionRotation>
+                      <KeepProjection>false</KeepProjection>
+                      <ShowOnlyBuildable>false</ShowOnlyBuildable>
+                      <InstantBuildingEnabled>false</InstantBuildingEnabled>
+                      <MaxNumberOfProjections>5</MaxNumberOfProjections>
+                      <MaxNumberOfBlocks>200</MaxNumberOfBlocks>
+                      <ProjectionsRemaining>0</ProjectionsRemaining>
+                      <GetOwnershipFromProjector>false</GetOwnershipFromProjector>
+                      <Scale>1</Scale>
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_ExhaustBlock">
+                      <SubtypeName>LargeExhaustPipe</SubtypeName>
+                      <EntityId>84945912582819781</EntityId>
+                      <Min x="0" y="1" z="1" />
+                      <ColorMaskHSV x="0.333333343" y="-0.48" z="-0.25" />
+                      <SkinSubtypeId>Mossy_Armor</SkinSubtypeId>
+                      <CustomName>Exhaust Pipe</CustomName>
+                      <ShowOnHUD>false</ShowOnHUD>
+                      <ShowInTerminal>true</ShowInTerminal>
+                      <ShowInToolbarConfig>true</ShowInToolbarConfig>
+                      <ShowInInventory>true</ShowInInventory>
+                      <Enabled>true</Enabled>
+                      <ExhaustEffect>FireSmall</ExhaustEffect>
+                      <PowerDependency>0</PowerDependency>
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+                      <SubtypeName>LargeBlockArmorSlope</SubtypeName>
+                      <Min x="1" y="0" z="1" />
+                      <BlockOrientation Forward="Down" Up="Right" />
+                      <ColorMaskHSV x="0.333333343" y="-0.48" z="-0.25" />
+                      <SkinSubtypeId>Mossy_Armor</SkinSubtypeId>
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+                      <SubtypeName>LargeBlockArmorSlope</SubtypeName>
+                      <Min x="1" y="0" z="0" />
+                      <BlockOrientation Forward="Down" Up="Right" />
+                      <ColorMaskHSV x="0.333333343" y="-0.48" z="-0.25" />
+                      <SkinSubtypeId>Mossy_Armor</SkinSubtypeId>
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+                      <SubtypeName>LargeBlockArmorSlope</SubtypeName>
+                      <Min x="0" y="0" z="2" />
+                      <ColorMaskHSV x="0.333333343" y="-0.48" z="-0.25" />
+                      <SkinSubtypeId>Mossy_Armor</SkinSubtypeId>
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+                      <SubtypeName>LargeBlockArmorSlope</SubtypeName>
+                      <Min x="-1" y="0" z="0" />
+                      <BlockOrientation Forward="Down" Up="Left" />
+                      <ColorMaskHSV x="0.333333343" y="-0.48" z="-0.25" />
+                      <SkinSubtypeId>Mossy_Armor</SkinSubtypeId>
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+                      <SubtypeName>LargeBlockArmorSlope</SubtypeName>
+                      <Min x="-1" y="0" z="1" />
+                      <BlockOrientation Forward="Down" Up="Left" />
+                      <ColorMaskHSV x="0.333333343" y="-0.48" z="-0.25" />
+                      <SkinSubtypeId>Mossy_Armor</SkinSubtypeId>
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+                      <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+                      <Min x="0" y="0" z="-1" />
+                      <ColorMaskHSV x="0.333333343" y="-0.48" z="-0.25" />
+                      <SkinSubtypeId>Mossy_Armor</SkinSubtypeId>
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+                      <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+                      <Min x="0" y="-1" z="2" />
+                      <ColorMaskHSV x="0.333333343" y="-0.48" z="-0.25" />
+                      <SkinSubtypeId>Mossy_Armor</SkinSubtypeId>
+                    </MyObjectBuilder_CubeBlock>
+                  </CubeBlocks>
+                  <IsStatic>true</IsStatic>
+                  <DisplayName>Climbway Memorial</DisplayName>
+                  <DestructibleBlocks>true</DestructibleBlocks>
+                  <CreatePhysics>false</CreatePhysics>
+                  <EnableSmallToLargeConnections>false</EnableSmallToLargeConnections>
+                  <IsRespawnGrid>false</IsRespawnGrid>
+                  <LocalCoordSys>62</LocalCoordSys>
+                  <TargetingTargets />
+                </MyObjectBuilder_CubeGrid>
+              </ProjectedGrids>
+              <ProjectionOffset>
+                <X>0</X>
+                <Y>0</Y>
+                <Z>1</Z>
+              </ProjectionOffset>
+              <ProjectionRotation>
+                <X>0</X>
+                <Y>0</Y>
+                <Z>0</Z>
+              </ProjectionRotation>
+              <KeepProjection>false</KeepProjection>
+              <ShowOnlyBuildable>false</ShowOnlyBuildable>
+              <InstantBuildingEnabled>false</InstantBuildingEnabled>
+              <MaxNumberOfProjections>5</MaxNumberOfProjections>
+              <MaxNumberOfBlocks>200</MaxNumberOfBlocks>
+              <ProjectionsRemaining>0</ProjectionsRemaining>
+              <GetOwnershipFromProjector>false</GetOwnershipFromProjector>
+              <Scale>1</Scale>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>LargeBlockArmorSlope</SubtypeName>
+              <Min x="1" y="0" z="0" />
+              <BlockOrientation Forward="Down" Up="Right" />
+              <ColorMaskHSV x="0.333333343" y="-0.48" z="-0.25" />
+              <SkinSubtypeId>Mossy_Armor</SkinSubtypeId>
+              <BuiltBy>144115188075855897</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>LargeBlockArmorSlope</SubtypeName>
+              <Min x="-1" y="0" z="0" />
+              <IntegrityPercent>0.964274347</IntegrityPercent>
+              <BlockOrientation Forward="Down" Up="Left" />
+              <ColorMaskHSV x="0.333333343" y="-0.48" z="-0.25" />
+              <SkinSubtypeId>Mossy_Armor</SkinSubtypeId>
+              <BuiltBy>144115188075855897</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+              <Min x="0" y="0" z="-1" />
+              <IntegrityPercent>0.908598244</IntegrityPercent>
+              <ColorMaskHSV x="0.333333343" y="-0.48" z="-0.25" />
+              <SkinSubtypeId>Mossy_Armor</SkinSubtypeId>
+              <ConstructionStockpile>
+                <Items xsi:type="MyObjectBuilder_StockpileItem">
+                  <Amount>32</Amount>
+                  <PhysicalContent xsi:type="MyObjectBuilder_Ore">
+                    <SubtypeName>Scrap</SubtypeName>
+                  </PhysicalContent>
+                </Items>
+              </ConstructionStockpile>
+              <BuiltBy>144115188075855897</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>LargeBlockArmorSlope</SubtypeName>
+              <Min x="1" y="0" z="1" />
+              <BlockOrientation Forward="Down" Up="Right" />
+              <ColorMaskHSV x="0.333333343" y="-0.48" z="-0.25" />
+              <SkinSubtypeId>Mossy_Armor</SkinSubtypeId>
+              <BuiltBy>144115188075855897</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>LargeBlockArmorSlope</SubtypeName>
+              <Min x="0" y="0" z="2" />
+              <ColorMaskHSV x="0.333333343" y="-0.48" z="-0.25" />
+              <SkinSubtypeId>Mossy_Armor</SkinSubtypeId>
+              <BuiltBy>144115188075855897</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>LargeBlockArmorSlope</SubtypeName>
+              <Min x="-1" y="0" z="1" />
+              <BlockOrientation Forward="Down" Up="Left" />
+              <ColorMaskHSV x="0.333333343" y="-0.48" z="-0.25" />
+              <SkinSubtypeId>Mossy_Armor</SkinSubtypeId>
+              <BuiltBy>144115188075855897</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_ExhaustBlock">
+              <SubtypeName>LargeExhaustPipe</SubtypeName>
+              <EntityId>100439039149311806</EntityId>
+              <Min x="0" y="1" z="1" />
+              <ColorMaskHSV x="0.333333343" y="-0.48" z="-0.25" />
+              <SkinSubtypeId>Mossy_Armor</SkinSubtypeId>
+              <BuiltBy>144115188075855897</BuiltBy>
+              <CustomName>Exhaust Pipe</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <Enabled>true</Enabled>
+              <ExhaustEffect>FireSmall</ExhaustEffect>
+              <PowerDependency>0</PowerDependency>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+              <Min x="0" y="-1" z="2" />
+              <ColorMaskHSV x="0.333333343" y="-0.48" z="-0.25" />
+              <SkinSubtypeId>Mossy_Armor</SkinSubtypeId>
+              <BuiltBy>144115188075855897</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+          </CubeBlocks>
+          <IsStatic>true</IsStatic>
+          <Skeleton>
+            <BoneInfo>
+              <BonePosition x="1" y="2" z="1" />
+              <BoneOffset x="127" y="125" z="127" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="1" y="2" z="0" />
+              <BoneOffset x="127" y="120" z="127" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="1" y="1" z="-1" />
+              <BoneOffset x="127" y="124" z="127" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="1" y="1" z="0" />
+              <BoneOffset x="127" y="124" z="127" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="1" y="1" z="1" />
+              <BoneOffset x="127" y="125" z="127" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="1" y="2" z="-1" />
+              <BoneOffset x="127" y="124" z="127" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="0" y="1" z="-1" />
+              <BoneOffset x="127" y="124" z="127" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="0" y="2" z="0" />
+              <BoneOffset x="127" y="115" z="127" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="0" y="2" z="1" />
+              <BoneOffset x="127" y="121" z="127" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="0" y="2" z="-1" />
+              <BoneOffset x="127" y="124" z="127" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="0" y="1" z="1" />
+              <BoneOffset x="127" y="125" z="127" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="0" y="1" z="0" />
+              <BoneOffset x="127" y="125" z="127" />
+            </BoneInfo>
+          </Skeleton>
+          <DisplayName>Static Grid 4151</DisplayName>
+          <DestructibleBlocks>true</DestructibleBlocks>
+          <IsRespawnGrid>false</IsRespawnGrid>
+          <LocalCoordSys>62</LocalCoordSys>
+          <TargetingTargets />
+        </CubeGrid>
+      </CubeGrids>
+      <EnvironmentType>None</EnvironmentType>
+      <WorkshopId>0</WorkshopId>
+      <OwnerSteamId>76561198042464652</OwnerSteamId>
+      <Points>0</Points>
+    </ShipBlueprint>
+  </ShipBlueprints>
+</Definitions>
